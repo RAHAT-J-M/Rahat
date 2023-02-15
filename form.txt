@@ -1,0 +1,123 @@
+<form action="" method="post"target="_self">
+    <fieldset>
+        <legend style="font-size: 100px;"">FORM</legend>
+        <table bgcolor="orange">
+            <tr>
+                <td bgcolor="blue">
+                    <label for="nn">First name</label>
+                </td>
+                <td>
+                    <input type="text" id="nn" placeholder="First name">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="blue">
+                    <label for="mm">Last name</label>
+                </td>
+                <td>
+                    <input type="text"id="mm">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="blue">
+                    <label for="11">Numbers</label>
+                </td>
+                <td>
+                    <input type="tel"id="11">
+                </td>
+            </tr>
+            <tr>
+            <td bgcolor="blue">
+                <label for="kk">Gender</label>
+            </td>
+            <td>
+                <input type="radio" id="kk">Male
+                <input type="radio" id="kk">Female
+                <input type="radio" id="kk">Others
+            </td>
+            </tr>
+           <tr>
+            <td>
+                <label for="pp">E-mail</label>
+            </td>
+            <td>
+                <input type="email" id="pp">
+            </td>
+           </tr>
+           <tr>
+            <td>
+                <label for="ii">Password</label>
+            </td>
+            <td>
+                <input type="Password"id="ii">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="uu">DOB</label>
+            </td>
+            <td>
+                <input type="date" id="uu">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="rr">bikes</label>
+            </td>
+        <td>
+        <select name="rr" id="">
+            <option value=""></option>
+            <option value="yamaha">yamaha</option>
+            <option value="RX">RX</option>
+            <option value="Bullet">Bullet</option>
+            <option value="xl100">xl100</option>
+            <option value="luno">luno</option>
+            <option value="dio">dio</option>
+        </select>
+        </td>
+        </tr>
+        <tr>
+        <td>
+            <label for="yy">sports</label>
+        </td>
+        <td>
+            <input type="checkbox"id="yy">cricket
+            <input type="checkbox"id="yy">kabbadi
+            <input type="checkbox"id="yy">football
+            <input type="checkbox"id="yy">baseball     
+        </td>
+          </tr>
+          <tr>
+            <td>
+                <label for="ee">Choose a File</label>
+            </td>
+    <td>
+        <input type="file" id="ee">
+    </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="ff">select range</label>
+        </td>
+        <td>
+            <input type="range" id="ff">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="ii">Address</label>
+        </td>
+        <td>
+            <textarea name="" id="ii" cols="30" rows="10"></textarea>
+        </td>
+        </tr>
+        <tr>
+        <td>
+             <button type="submit">submit</button>
+             <button type="reset">reset</button>
+        </td>
+    </tr>
+
+        </table>
+    </fieldset>
+</form>
